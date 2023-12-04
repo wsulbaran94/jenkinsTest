@@ -8,7 +8,7 @@ pipeline {
   agent {
     label 'master'
   }
-  evironment {
+  environment {
     appName = 'variable'
   }
   stages {
