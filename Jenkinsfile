@@ -12,7 +12,7 @@ pipeline {
     appName = 'variable'
   }
   stages {
-    stages("paso 1") {
+    stage("paso 1") {
       steps{
         script {
           sh "echo 'Hola mundo'"
